@@ -1,4 +1,8 @@
 StreamTrans::Application.routes.draw do
+  get "trans_pages/home"
+
+  get "trans_pages/about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
