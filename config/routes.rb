@@ -1,7 +1,8 @@
 StreamTrans::Application.routes.draw do
-  get "trans_pages/home"
 
-  get "trans_pages/about"
+  root to: 'trans_pages#home'
+
+  match '/about', to: 'trans_pages#about', via: 'get'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
