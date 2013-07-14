@@ -1,12 +1,13 @@
 <header>
-	<%= image_tag("banner.png", id: "logo", alt: 'banner') %>
 	<div class="container">
+		<%= image_tag("banner.png", id: "banner", alt: 'banner') %>
 		<nav class= "navbar">
-			<ul class = "nav pull-left">
+			<ul class = "nav">
 				<li><%= link_to "Home", root_path %></li>
 				<li><%= link_to "Company", '#' %></li>
 				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Translation <b class="caret"></b>
+				<a href="#"> Translation 
+					<b class="caret"></b>
 				</a>
 					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 						<li><%= link_to "Steps", '#' %></li>
@@ -15,7 +16,8 @@
 				</li>
 
 				<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Interpretation <b class="caret"></b>
+				<a href="#">Interpretation 
+					<b class="caret"></b>
 				</a>
 					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 						<li><%= link_to "Steps", '#' %></li>

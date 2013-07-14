@@ -1,13 +1,22 @@
 @import "bootstrap";
 /* Header */
 
-#logo {
+#banner {
   display: block;
   margin: 0 auto;
 }
 
-.center{
-  text-align: center;
+.container{
+  width: 980px;
 }
 
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+    display: block;    
+}
 
+a.menu:after, .dropdown-toggle:after {
+    content: none;
+}
+.navbar .dropdown-menu {
+ margin-top: 0px;
+}
