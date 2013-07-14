@@ -1,0 +1,34 @@
+<header>
+	<%= image_tag("banner.png", id: "logo", alt: 'banner') %>
+	<div class="container">
+		<nav class= "navbar">
+			<ul class = "nav pull-left">
+				<li><%= link_to "Home", root_path %></li>
+				<li><%= link_to "Company", '#' %></li>
+				<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Translation <b class="caret"></b>
+				</a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+						<li><%= link_to "Steps", '#' %></li>
+						<li><%= link_to "Price", '#' %></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Interpretation <b class="caret"></b>
+				</a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+						<li><%= link_to "Steps", '#' %></li>
+						<li><%= link_to "Price", '#' %></li>
+					</ul>
+				</li>
+				<li><%= link_to "Q&A", '#' %></li>
+				<li><%= link_to "Apply", '#' %></li>
+				<li><%= link_to "Customer Support", '#' %></li>
+				
+			</ul>
+		</nav>	
+	</div>
+
+</header>
+
