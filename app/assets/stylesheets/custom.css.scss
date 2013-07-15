@@ -20,3 +20,35 @@ a.menu:after, .dropdown-toggle:after {
 .navbar .dropdown-menu {
  margin-top: 0px;
 }
+
+/* Home */
+
+.page_content{
+	margin-top: 50px;
+}
+
+#myCarousel{
+	width: 600px;
+	float: right;
+}
+
+.home_content{
+	float: left;
+}
+
+
+/* Footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+  small{
+  	float:left
+  }
+}
+
+.phone{
+	float: right;
+}
