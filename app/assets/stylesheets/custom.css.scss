@@ -11,14 +11,27 @@
 }
 
 ul.nav li.dropdown:hover > ul.dropdown-menu{
-    display: block;    
+	display: block; 
+
+}
+
+a{
+	color:#A4A4A4;
+	font-weight: bold;
 }
 
 a.menu:after, .dropdown-toggle:after {
     content: none;
 }
+
+.dropdown{
+	 height: 30px;
+}
+
+
 .navbar .dropdown-menu {
  margin-top: 0px;
+
 }
 
 /* Home */
