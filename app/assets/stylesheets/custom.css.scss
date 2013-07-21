@@ -3,6 +3,7 @@
 
 body{
   background-color:#FBFBFB;
+    min-width:1050px;
 }
 
 #banner {
@@ -69,26 +70,21 @@ border:none;
 /* Footer */
 
 footer {
-  margin-top: 45px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 35px auto;
   padding-top: 15px;
   border-top: 1px solid #eaeaea;
-  width: 1300px;
+  width:90%;
   color: #999;
+  text-align:center;
   small{
-  	float:left;
+    font-size:110%;
+    padding-bottom:5px;
+    color: #9F9D9D;
   }
 }
 
 .phone{
 	float: right;
-}
-
-small{
-  font-size:110%;
-  padding-bottom:5px;
-  color: #9F9D9D;
 }
 
 /* Company */
