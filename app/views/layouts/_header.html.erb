@@ -1,36 +1,43 @@
 <header>
 	<div class="container">
 		<%= image_tag("banner.png", id: "banner", alt: 'banner') %>
-
-			<ul class = "nav nav-pills">
+	</div>
+			<ul class = "nav nav-pills main_menu">
 				<li><%= link_to "Home", root_path %></li>
-				<li><%= link_to "Company", '#' %></li>
+				<li><%= link_to "Company (회사)", company_path %></li>
 				<li class="dropdown">
-				<a href="#"> Translation 
+				<a href="#"> Translation (번역)
 					<b class="caret"></b>
 				</a>
 					<ul class="dropdown-menu">
-						<li><%= link_to "Steps", '#' %></li>
-						<li><%= link_to "Price", '#' %></li>
+						<li><%= link_to "절차", transproc_path %></li>
+						<li><%= link_to "가격", transprice_path %></li>
 					</ul>
 				</li>
 
 				<li class="dropdown">
-				<a href="#">Interpretation 
+				<a href="#">Interpretation (통역) 
 					<b class="caret"></b>
 				</a>
 					<ul class="dropdown-menu">
-						<li><%= link_to "Steps", '#' %></li>
-						<li><%= link_to "Price", '#' %></li>
+						<li><%= link_to "절차", 
+							interpretproc_path %>
+						</li>
+						<li><%= link_to "가격",
+							interpretprice_path %>
+						</li>
 					</ul>
 				</li>
-				<li><%= link_to "Q&A", '#' %></li>
-				<li><%= link_to "Apply", '#' %></li>
-				<li><%= link_to "Customer Support", '#' %></li>
+				<li><%= link_to "Q&A (질문과 응답)", qanda_path %></li>
+				<li><%= link_to "Apply (통 번역사지원)", 
+					apply_path %>
+				</li>
+				<li><%= link_to "Customer Support (고갟센터)", 
+					support_path %>
+				</li>
 				
 			</ul>
-	
-	</div>
+
 
 </header>
 

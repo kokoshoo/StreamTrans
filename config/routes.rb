@@ -2,7 +2,26 @@ StreamTrans::Application.routes.draw do
 
   root to: 'trans_pages#home'
 
-  match '/about', to: 'trans_pages#about', via: 'get'
+  route_array = 
+  ['company', 'transprice', 'transproc', 'interpretproc',
+    'interpretprice', 'qanda', 'apply', 'support']
+
+  route_array.each do |i|
+    match ('/'+i),
+    to: ('trans_pages#'+i), 
+    via: 'get'
+  end
+
+
+ # match '/company', to: 'trans_pages#company', via: 'get'
+ # match '/transprice', to: 'trans_pages#transprice', via: 'get'
+ # match '/transproc', to: 'trans_pages#transproc', via: 'get'
+ # match '/interpretproc', to: 'trans_pages#interpretproc', via: 'get'
+ # match '/interpretprice', to: 'trans_pages#interpretprice', via: 'get'
+ # match '/qanda', to: 'trans_pages#qanda', via: 'get'
+ # match '/apply', to: 'trans_pages#apply', via: 'get'
+ # match '/support', to: 'trans_pages#support', via: 'get'
+ # match '/transprice', to: 'trans_pages#transprice', via: 'get'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

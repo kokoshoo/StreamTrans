@@ -1,9 +1,13 @@
 @import "bootstrap";
 /* Header */
 
+body{
+  background-color:#FBFBFB;
+}
+
 #banner {
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 .container{
@@ -12,12 +16,18 @@
 
 ul.nav li.dropdown:hover > ul.dropdown-menu{
 	display: block; 
+}
 
+.main_menu{
+  width: 1200px;
+  margin: 0 auto;
 }
 
 a{
 	color:#A4A4A4;
+  color:#079C68;
 	font-weight: bold;
+  font-size:115%;
 }
 
 a.menu:after, .dropdown-toggle:after {
@@ -29,10 +39,16 @@ a.menu:after, .dropdown-toggle:after {
 }
 
 
-.navbar .dropdown-menu {
+.dropdown-menu {
  margin-top: 0px;
-
+    li a{
+        font-weight: bold;
+        color:#096B59;
+    }
+width: 50px;
+border:none;
 }
+
 
 /* Home */
 
@@ -54,14 +70,47 @@ a.menu:after, .dropdown-toggle:after {
 
 footer {
   margin-top: 45px;
-  padding-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 15px;
   border-top: 1px solid #eaeaea;
+  width: 1300px;
   color: #999;
   small{
-  	float:left
+  	float:left;
   }
 }
 
 .phone{
 	float: right;
+}
+
+small{
+  font-size:110%;
+  padding-bottom:5px;
+  color: #9F9D9D;
+}
+
+/* Company */
+
+.company_left{
+  width:50%;
+  float:left;
+}
+
+.company_right{
+  float:left;
+  margin-left: 100px;
+  width: 20em;
+  p{
+    margin-top:5px;
+    font-size: 140%
+  }
+}
+
+#david{
+}
+
+.company_header{
+  text-align: center;
 }
