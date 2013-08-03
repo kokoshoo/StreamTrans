@@ -19,8 +19,8 @@ body{
 #home_link{
   font-size:2em;
   color:green;
-  margin-left:.55%;
-  margin-right:.55%;
+  margin-left:.15%;
+  margin-right:.15%;
     a{
       color:greenyellow;
     }
@@ -149,16 +149,21 @@ a.menu:after, .dropdown-toggle:after {
 
 
 /* Price */
-
+table{
+  
+  border-color:grey;
+}
 th{
   width:10em;
   height:3em;
   background-color:grey;
+
 }
 
 td{
   height:5em;
   text-align:center;
+  border-color:grey;
 }
 
 .transkorean{
