@@ -3,8 +3,8 @@ StreamTrans::Application.routes.draw do
   root to: 'trans_pages#home'
 
   route_array = 
-  ['company', 'transprice', 'transproc', 'interpretproc',
-    'interpretprice', 'qanda', 'apply', 'support']
+  ['company', 'transprice', 'transproc', 'transorder','interpretorder',
+   'interpretproc', 'interpretprice', 'qanda', 'apply', 'support']
 
   route_array.each do |i|
     match ('/'+i),

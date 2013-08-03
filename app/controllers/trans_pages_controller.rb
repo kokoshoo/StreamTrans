@@ -11,10 +11,16 @@ class TransPagesController < ApplicationController
   def transprice
   end
 
+  def transorder
+  end
+
   def interpretproc
   end
 
   def interpretprice
+  end
+
+  def interpretorder
   end
 
   def qanda

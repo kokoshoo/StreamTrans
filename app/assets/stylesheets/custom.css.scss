@@ -9,52 +9,86 @@ body{
 #banner {
   display: block;
   margin: 5px auto;
+  width:600px;
 }
 
 .container{
   width: 980px;
 }
 
-ul.nav li.dropdown:hover > ul.dropdown-menu{
-	display: block; 
+#home_link{
+  font-size:2em;
+  color:green;
+  margin-left:.55%;
+  margin-right:.55%;
+    a{
+      color:greenyellow;
+    }
+}
+.main_menu{
+
+  margin: 0 auto;
+  font-size:12px;
+
 }
 
-.main_menu{
-  width: 1200px;
-  margin: 0 auto;
+.caret{
+  border-top: 3px solid white;
+}
+
+.nav-pills > li{
+
+  border-right:solid;
+  margin-left:.25%;
+}
+
+.nav-pills .dropdown-menu{
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius:0px;
+  margin-top:0px;
+  background-color:gainsboro;
+  a {
+    font-weight: bold;
+    color:#F00F70;
+  }
+}
+
+#interpret-drop{
+  width:13em;
 }
 
 a{
-	color:#A4A4A4;
-  color:#079C68;
+  color:azure;
 	font-weight: bold;
   font-size:115%;
 }
 
 a.menu:after, .dropdown-toggle:after {
     content: none;
-}
 
-.dropdown{
-	 height: 30px;
 }
 
 
-.dropdown-menu {
- margin-top: 0px;
-    li a{
-        font-weight: bold;
-        color:#096B59;
-    }
-width: 50px;
-border:none;
+
+
+
+.dropdown-menu > li > a:hover {
+      background:black;
 }
+
+.nav{
+  background-color:black;
+  width:1200px;
+  minimum-width:1200px;
+}
+
 
 
 /* Home */
 
 .page_content{
-	margin-top: 50px;
+	margin-top: 3.5em;
 }
 
 #myCarousel{
@@ -67,10 +101,96 @@ border:none;
 }
 
 
+/* Process */
+
+.process{
+  margin-top: 2em;
+  float:left;
+}
+
+.process_left{
+ float:left;
+ margin-bottom:100px;
+ margin-left: 50px;
+ height:6.5em;
+ width: 200px;
+ background-color:gainsboro;
+ border:solid;
+
+
+}
+
+.process_right{
+  border:solid;
+  float:left;
+    height: 20em;
+  padding-left:25px;
+  background-color:cadetblue;
+}
+
+.process_sign{
+  padding-top:0.5em;
+  padding-left:20px;
+}
+
+.process_info{
+  margin-top: 2em;
+  padding-left: 2em;
+  width:21em;
+  list-style-type:decimal;
+  font-size:150%;
+  font-weight:bold;
+  color:inherit;
+
+    li{
+      margin-bottom:3em;
+    }
+}
+
+
+/* Price */
+
+th{
+  width:10em;
+  height:3em;
+  background-color:grey;
+}
+
+td{
+  height:5em;
+  text-align:center;
+}
+
+.transkorean{
+  border:none;
+  font-size:150%;
+}
+
+.pricetable{
+  float:left;
+  margin-left:20px;
+}
+
+.interprettable{
+  margin:2em auto;
+}
+
+.interpretleft{
+  border:none;
+  font-size:150%;
+  vertical-align:bottom;
+}
+
+.interpretright{
+  vertical-align:bottom;
+  border:none;
+}
+
+
 /* Footer */
 
 footer {
-  margin: 35px auto;
+  margin: 10em auto;
   padding-top: 15px;
   border-top: 1px solid #eaeaea;
   width:90%;
