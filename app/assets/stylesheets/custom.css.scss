@@ -111,26 +111,23 @@ a.menu:after, .dropdown-toggle:after {
 .process_left{
  float:left;
  margin-bottom:100px;
- margin-left: 50px;
  height:6.5em;
  width: 200px;
  background-color:gainsboro;
- border:solid;
+ text-align:center;
+
 
 
 }
 
 .process_right{
-  border:solid;
   float:left;
-    height: 20em;
   padding-left:25px;
-  background-color:cadetblue;
+
 }
 
 .process_sign{
   padding-top:0.5em;
-  padding-left:20px;
 }
 
 .process_info{
@@ -146,6 +143,10 @@ a.menu:after, .dropdown-toggle:after {
       margin-bottom:3em;
     }
 }
+  
+  .interpret_info_bullet{
+    list-style-type:square;
+  }
 
 
 /* Price */
